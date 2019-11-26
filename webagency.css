@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+}
+/*Barre fixe de navigation */
+
+nav  ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 211px;
+    margin-right: 89px;
+    padding-left: 329px;
+}
+
+nav li{
+    margin-right: 15px;
+}
+
+nav a{
+    font-size: 1.2em;
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+ul{
+    align-items: center;
+    background-color: white;
+    top: 0px;
+}
+#logo{
+    
+    
+}
+header{
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 9;
+    display: flex;
+}
+nav a:hover{
+    border-top: 3px #5CADD3 solid;     
+    padding: 31px 0 0;
+}
+/*slider */
+.enfant_sourit{
+    z-index: 0;
+    margin-top: 89px;
+}
+.enfant_crie, .enfant_sourit{
+    width: 1903px;
+    height: 700px;
+}
+
+.bouton{
+    position: absolute;
+    z-index: 1;
+    bottom: 425px ;
+    right: 1445px ;
+}
+.texte1{
+    color: #ffffff ;
+    z-index: 1;
+    position: absolute;
+    bottom: 470px ;
+    right: 960px ;
+}
+.titre1{
+    font-size: 2.5em;
+}
+span{
+    color: rgb(92, 173, 211);
+}
+
