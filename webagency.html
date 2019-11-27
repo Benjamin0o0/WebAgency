@@ -16,17 +16,23 @@
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
-                    <header>
-                            <img id="logo" src="images/logo.png" alt="Logo de la Webagency" />
+                <header>
+                    <div id="header_webagency">
+                            <div class="logo_webagency">
+                                <img id="logo" src="images/logo.png" alt="Logo de la Webagency" />
+                            </div>
                         <nav>
-                            <ul>
-                                <li><a href="#accueil">Accueil</a></li>
-                                <li><a href="#services">Services</a></li>
-                                <li><a href="#portfolio">Portfolio</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                            </ul>
+                            <div class="navigation">
+                                <ul>
+                                    <li><a href="#accueil">Accueil</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#portfolio">Portfolio</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
                         </nav>
-                    </header>
+                    </div>
+                </header>
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
@@ -34,14 +40,19 @@
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
-                    <div id="accueil" class="img1">
-                        <div class="texte1">
-                            <h1 class="titre1"><span>WEBAGENCY</span> : L'AGENCE DE TOUS <br />
-                            VOS PROJETS !</h1>
-                            <h4>Vous avez un projet web ? La WebAngency vous aide à le réaliser !</h4>
+                    <div id="accueil"></div>
+                        <div id="slider_visuel">
+                            <div class="texte_slider">
+                                <h1 class="titre_principal"><span>WEBAGENCY</span> : L'AGENCE DE TOUS <br />
+                                VOS PROJETS !</h1>
+                                <h4>Vous avez un projet web ? La WebAngency vous aide à le réaliser !</h4>
+                            </div>
+                            <div class="bouton_infos">
+                                <input class="bouton" type="button" value="Plus d'infos" />
+                                <img class="enfant_sourit" src="images/slider/bg1.jpg" alt="enfant qui sourit" /> 
+                            </div>     
                         </div>
-                            <input class="bouton" type="button" value="Plus d'infos" />
-                            <img class="enfant_sourit" src="images/slider/bg1.jpg" alt="enfant qui sourit" />                      </div>
+
                     <div id="fleche">
                         <i class="fas fa-angle-left"></i>
                         <i class="fas fa-angle-right"></i>
@@ -54,21 +65,23 @@
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
                     <section>
-                            <h1 id="services">NOS SERVICES</h1>
-                            <div class="circle">
-                                <i class="fas fa-circle"></i>
-                            </div>
-                            <div class="ligne"></div>
-                            <div class="cender">
-                                <p>Notre expertise et notre savoir-faire sont au service de votre projet.<br />
-                                Nous vous proposons plusieurs services pour votre site web, ainsi qu'une maintenance régulière.</p>
-                            </div>
+                        <div id="nos_services">
+                            <div class="texte_services">
+                                <h1 id="services">NOS SERVICES</h1>
+                                    <div class="circle">
+                                        <i class="fas fa-circle"></i>
+                                    </div>
+                                <div class="ligne"></div>
+                                    <p>Notre expertise et notre savoir-faire sont au service de votre projet.<br />
+                                    Nous vous proposons plusieurs services pour votre site web, ainsi qu'une maintenance régulière.</p>
+                        </div>
+                        </div>
                             
-                            <div id="ordi">
+                        <div id="description">
+
+                            <div class="ordi">
                                 <img src="images/main-feature.png" alt="ordinateur" />
                             </div>
-                            
-                            <div id="block_design">
                                 <div class="design">
                                     <div class="uxchart">
                                         <i class="fas fa-chart-line"></i>
@@ -106,7 +119,8 @@
                                         <p>Réalisation d'un audit SEO technique et stratégique entièrement personnalisé pour<br />
                                         identifier et corriger les obstacles à la bonne visibilité de votre site.</p> 
                                 </div>
-                            </div>
+                        </div>
+                    </section>
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
@@ -114,23 +128,27 @@
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
-                        <aside>
-                            <h1 id="portfolio">NOS PROJETS</h1>
-                            <div class="circle">
-                                <i class="fas fa-circle"></i>
+                        <div id="nos_projets">
+                            <div class="texte_projets">
+                                <h1 id="portfolio">NOS PROJETS</h1>
+                                <div class="circle">
+                                    <i class="fas fa-circle"></i>
+                                </div>
+                                <div class="ligne"></div>
+                                    <p>WEBAGENCY conçoit et réalise des solutions web sur mesure, décourvrez les dernières rélisations.</p>
                             </div>
-                            <div class="ligne"></div>
-                            <div class="cender">
-                                <p>WEBAGENCY conçoit et réalise des solutions web sur mesure, décourvrez les dernières rélisations.</p>
-                            </div>
+                        </div>
+
+                        <div id="list_bouton">
                             <div class="bouton_projets">s
                                 <input type="button" value="All Works" />
                                 <input type="button" value="Creative" />
                                 <input type="button" value="Corporate" />
                                 <input type="button" value="Portfolio" />
                             </div>
+                        </div>
 
-                            <div id="proj">
+                            <div id="different_project">
                                 <div class="imgProjets">
                                     <img src="images/portfolio/01.jpg" alt="lunettes" />
                                     <div class="texte_proj">
@@ -229,8 +247,7 @@
                                     </div>
                                 </div>                              
                             </div>
-                        </aside>
-                    </section>
+
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
@@ -238,44 +255,43 @@
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
 <!--**************************************************************************************************************************-->
-                    <footer>
+
+                    <footer id="contact">
+
                         <div id="map">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d3225.607261745737!2d2.349782999999988!
                             3d48.873028000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d48.8730518!2d2.3498256
                             !5e1!3m2!1sfr!2sfr!4v1573903954357!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div>
 
-                        <form id="contact">
-                            <p>
-                                <p class="form">
+                        <form>
+                            <div id="forum_contact">
+                                <p class="tableu">
                                     <h3>Contact Info</h3>
                                     <strong>WebAngency SAS</strong><br />
                                     25 Rue d'Hauteville 75010 Paris <br />
                                     Tel:01 02 03 04 05
                                 </p>
-                                <div id="form">
-                                    <div class="form1">
+                                    <div class="tableu">
                                         <label for="pseudo"></label>
                                         <input type="text" name="pseudo" id="pseudo"  placeholder="Name" />
                                     </div>
 
-                                    <div class="form1">
+                                    <div class="tableu">
                                         <label for="email"></label>
                                         <input type="email" name="email" id="email" placeholder="Email" />
                                     </div>
 
-                                    <div class="form1">
+                                    <div class="tableu">
                                         <label for="Subject"></label>
                                         <input type="text" name="Subject" id="Subject" placeholder="Subject" />
                                     </div>
-                                    <div class="form1">
+                                    <div class="tableu">
                                         <textarea rows="5" cols="100" type="texte">Le texte</textarea>
                                     </div>
+                                <div class="button_send">
+                                    <input type="submit" value="Send Message" />
                                 </div>
-                            </p>
-
-                            <div class="button_send">
-                                <input type="submit" value="Send Message" />
                             </div>
                         </form>
                     </footer>
