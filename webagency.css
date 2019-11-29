@@ -8,42 +8,38 @@ body{
 /*                                                                                                                   /
 /*                                                                                                                   /
 /********************************************************************************************************************/ 
-nav  ul{
-    list-style-type: none;
+
+#header_webagency{
     display: flex;
-    justify-content: flex-end;
-    padding-right: 211px;
-    margin-right: 89px;
-    padding-left: 329px;
+    justify-content: space-around; 
+    align-items: center;
+    height: 80px;
+    flex-wrap: wrap;
+    height: 99px;
+    width: 1903px;
+    position: fixed;
+    background-color:white;
+    z-index: 9;
 }
-
-nav li{
-    margin-right: 15px;
+.navigation  ul{
+    list-style-type: none;
+    display: flex; 
 }
-
-nav a{
+.menus{
+    margin-right: 20px;
+    background-color: white;
+}
+.navigation a{
     font-size: 1.2em;
-    color: black;
-    padding-bottom: 3px;
+    color: rgba(0, 0, 0, 0.5) ;
     text-decoration: none;
 }
-ul{
-    align-items: center;
-    background-color: white;
-    top: 0px;
+.navigation a:hover{
+    border-top: 4px #5CADD3 solid;     
+    padding: 35px 0 0;
+    color: black;
 }
-}
-header{
-    background-color: white;
-    position: fixed;
-    top: 0px;
-    z-index: 9;
-    display: flex;
-}
-nav a:hover{
-    border-top: 3px #5CADD3 solid;     
-    padding: 31px 0 0;
-}
+
 /*******************************************************************************************************************/
 /*                                                                                                                  /
 /*                                                                                                                  / 
@@ -54,28 +50,16 @@ nav a:hover{
 .enfant_sourit{
     z-index: 0;
     margin-top: 89px;
+    height: 654px;
 }
-.enfant_crie, .enfant_sourit{
-    width: 1903px;
-    height: 700px;
-}
-
-.bouton{
-    position: absolute;
-    z-index: 1;
-    bottom: 425px ;
-    right: 1445px ;
-}
-.texte1{
+.texte_slider{
     color: #ffffff ;
     z-index: 1;
     position: absolute;
-    bottom: 470px ;
-    right: 960px ;
+    bottom:  ;
+    right: ;
 }
-.titre1{
-    font-size: 2.5em;
-}
+
 span{
     color: rgb(92, 173, 211);
 }
