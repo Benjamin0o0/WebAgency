@@ -47,20 +47,30 @@ body{
 /*                                                                                                                   /
 /*                                                                                                                   /
 /********************************************************************************************************************/ 
+
+.titre_principal{
+    
+
+}
+
 .enfant_sourit{
     z-index: 0;
-    margin-top: 89px;
+    margin-top: 77px;
     height: 654px;
 }
 .texte_slider{
     color: #ffffff ;
     z-index: 1;
     position: absolute;
-    bottom:  ;
-    right: ;
+    padding-top: 270px;
+    padding-left: 300px;
 }
-
 span{
     color: rgb(92, 173, 211);
 }
-
+.bouton{
+    z-index: 1;
+    position: absolute;
+    top: 429px !important;
+    left: 368px
+}
