@@ -47,12 +47,27 @@ body{
 /*                                                                                                                   /
 /*                                                                                                                   /
 /********************************************************************************************************************/ 
-
-.titre_principal{
-    
-
+@font-face {
+    font-family: 'robotothin';
+    src: url('texte_police/texte1/roboto-thin-webfont.woff') format('woff2'),
+         url('texte_police/texte1/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-
+#titre_principal{
+    font-family: robotothin-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 41px;
+    padding-top: 240px;
+    padding-left: 280px;
+}
+span{
+    color: rgb(92, 173, 211);
+}
+#titre_secondaire{
+    margin-top: -20px;
+    padding-left: 280px;
+    font-size: 16px;
+}
 .enfant_sourit{
     z-index: 0;
     margin-top: 77px;
@@ -62,15 +77,22 @@ body{
     color: #ffffff ;
     z-index: 1;
     position: absolute;
-    padding-top: 270px;
-    padding-left: 300px;
 }
-span{
-    color: rgb(92, 173, 211);
-}
+
 .bouton{
     z-index: 1;
     position: absolute;
-    top: 429px !important;
-    left: 368px
+    top: 440px;
+    left: 290px;
+    width: 148px;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    background-color: rgb(92, 173, 211);
+    border-bottom: 3px solid rgb(68, 148, 187);
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-radius: 4px;
 }
