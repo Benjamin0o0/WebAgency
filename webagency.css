@@ -78,7 +78,6 @@ span{
     z-index: 1;
     position: absolute;
 }
-
 .bouton{
     z-index: 1;
     position: absolute;
@@ -90,9 +89,64 @@ span{
     text-align: center;
     color: white;
     background-color: rgb(92, 173, 211);
+    border: none;
     border-bottom: 3px solid rgb(68, 148, 187);
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-left-width: 0px;
     border-radius: 4px;
+}
+#fleche_left{
+    z-index: 1;
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 12px;
+    color: white;
+    font-size: 35px;
+    background:rgba(66, 66, 70, 0.5);
+    border-radius: 100%;
+    width:050px;
+    height:px;
+   
+}
+#fleche_right{
+    z-index: 1;
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 1872px;
+    color: white;
+    font-size: 35px;
+}
+/*******************************************************************************************************************/
+/*                                                                                                                  /
+/*                                                                                                                  / 
+                                                sections et article (nos services)
+/*                                                                                                                   /
+/*                                                                                                                   /
+/********************************************************************************************************************/ 
+#services{   						
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+#texte_services{
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 25px;
+}
+.circle_services{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    color:rgb(92, 173, 211) ;    
+}
+.circle_white{
+    display: flex;
+    justify-content: center;
+    margin-top: -16px;
+    color:white; 
+    font-size: 25px;
+}
+.ligne{
+    width: 125px;
+    margin-top: -9px;
+    color: rgba(237, 237, 237, 0.5);
 }
