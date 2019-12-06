@@ -96,16 +96,17 @@ span{
 #fleche_left{
     z-index: 1;
     position: absolute;
-    top: 400px;
+    top: 380px;
     padding-left: 12px;
     color: white;
     font-size: 35px;
     background:rgba(66, 66, 70, 0.5);
     width: 70px;
     height: 80px;
-    left: -45px;
     border-radius: 50px;
     background: green;   
+    position: absolute;
+    left: 5px;
 }
 #fleche_right{
     z-index: 1;
@@ -127,7 +128,7 @@ span{
     justify-content: center;
     font-size: 40px;
 }
-#texte_services{
+#texte{
     display: flex;
     justify-content: center;
     color: rgba(0, 0, 0, 0.5);
@@ -161,10 +162,36 @@ span{
 /********************************************************************************************************************/ 
 #description{
     display: flex;
+    flex-direction: column;
+    justify-content:
 }
 .ordi{
     justify-content: flex-start; 
 }
 .design{
-    flex-direction: column-reverse;
+   flex-direction: column;
+}
+
+
+#services{
+    padding-top: 90px;
+}
+/*******************************************************************************************************************/
+/*                                                                                                                  /
+/*                                                                                                                  / 
+                                        nos projets           
+/*                                                                                                                   /
+/*                                                                                                                   /
+/********************************************************************************************************************/ 
+#portfolio{
+    padding-top: 90px;
+}
+#different_project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#images_projetct{
+    width: 350px;
 }
