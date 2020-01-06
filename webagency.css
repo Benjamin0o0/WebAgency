@@ -96,25 +96,59 @@ span{
 #fleche_left{
     z-index: 1;
     position: absolute;
-    top: 380px;
+    top: 360px;
     padding-left: 12px;
-    color: white;
-    font-size: 35px;
-    background:rgba(66, 66, 70, 0.5);
+    background:rgba(67, 66, 71, 0.6);
     width: 70px;
     height: 80px;
-    border-radius: 50px;
-    background: green;   
+    border-radius: 50px;  
+    left: -40px;
+}
+#rond_left{
     position: absolute;
-    left: 5px;
+    margin-top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 35px;
 }
 #fleche_right{
     z-index: 1;
     position: absolute;
-    top: 400px;
-    padding-left: 1872px;
+    top: 360px;
+    margin-left: 1857px;
+    background:rgba(67, 66, 71, 0.2);
+    width: 46px;
+    height: 80px;
+    border-radius: 50px 0 0 50px;
+}
+#rond_right{
+    position: absolute;
     color: white;
     font-size: 35px;
+    margin-top: 23px;
+    margin-left: 16px;
+}
+#ligne_bleu{
+   position: absolute;
+   z-index: 2;
+   color: #5CADD3;
+   margin-top: -5px;
+   padding-left: 274px;
+   margin-bottom: 0px;
+   bottom: 213px;
+   border-top-width: 4px;
+   margin-top: 0px;
+}
+#ligne_grise{
+    position: absolute;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.2);
+    margin-top: -5px;
+    padding-left: 1900px;
+    margin-bottom: 0px;
+    bottom: 213px;
+    border-top-width: 4px;
+    margin-top: 0px;
 }
 /*******************************************************************************************************************/
 /*                                                                                                                  /
@@ -163,7 +197,7 @@ span{
 #description{
     display: flex;
     flex-direction: column;
-    justify-content:
+    justify-content: none;
 }
 .ordi{
     justify-content: flex-start; 
