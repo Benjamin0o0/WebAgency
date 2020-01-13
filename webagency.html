@@ -80,46 +80,50 @@
             <p class="texte">Notre expertise et notre savoir-faire sont au service de votre projet.<br />Nous vous proposons plusieurs services pour votre site web, ainsi qu'une maintenance régulière.</p>
             
             <div id="description">
-                <div class="ordi">
-                    <img src="images/main-feature.png" alt="ordinateur" />
+                <div id="block_ordi">
+                    <img class="ordi" src="images/main-feature.png" alt="ordinateur" />
                 </div>
-                <div class="design">
-                    <div class="uxchart">
-                        <i class="fas fa-chart-line"></i>
+                <div id="block_design">
+                    <div class="design">
+                        <div class="icon">
+                            <div class="uxchart">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        
+                            <div class="circle">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                        </div>
+                        <div class="texte_desig">    
+                            <h3>UX design</h3>
+                            <p>Nous concevons les interfaces et la navigation de nos sites et applications avec seul<br />objectif: amener vos utilisateurs à réaliser les actions que vous attendez de lui.</p> 
+                        </div>
                     </div>
                     
-                    <div class="circle">
-                        <i class="fas fa-circle"></i>
+                    <div class="design">
+                        <div class="uichart">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="circle">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                        <div class="texte_desig"> 
+                            <h3>UI design</h3>
+                            <p>Décortiquer l'identité d'une marque est la base d'un design réussi. Notre équipe Création<br />vit avec la soif d'ingurgiter tout ce qui peut l'inspirer</p> 
+                        </div>
                     </div>
-                    <div class="texte_desig">    
-                        <h3>UX design</h3>
-                        <p>Nous concevons les interfaces et la navigation de nos sites et applications avec seul<br />objectif: amener vos utilisateurs à réaliser les actions que vous attendez de lui.</p> 
-                    </div>
-                </div>
-                
-                <div class="design">
-                    <div class="uichart">
-                        <i class="fas fa-chart-pie"></i>
-                    </div>
-                    <div class="circle">
-                        <i class="fas fa-circle"></i>
-                    </div>
-                    <div class="texte_desig"> 
-                        <h3>UI design</h3>
-                        <p>Décortiquer l'identité d'une marque est la base d'un design réussi. Notre équipe Création<br />vit avec la soif d'ingurgiter tout ce qui peut l'inspirer</p> 
-                    </div>
-                </div>
-                
-                <div class="design">
-                    <div class="SEO">
-                        <i class="fas fa-cubes"></i>
-                    </div>      
-                    <div class="circle">
-                        <i class="fas fa-circle"></i>
-                    </div>
-                    <div class="texte_desig"> 
-                        <h3>SEO</h3>
-                        <p>Réalisation d'un audit SEO technique et stratégique entièrement personnalisé pour<br />identifier et corriger les obstacles à la bonne visibilité de votre site.</p> 
+                    
+                    <div class="design">
+                        <div class="SEO">
+                            <i class="fas fa-cubes"></i>
+                        </div>      
+                        <div class="circle">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                        <div class="texte_desig"> 
+                            <h3>SEO</h3>
+                            <p>Réalisation d'un audit SEO technique et stratégique entièrement personnalisé pour<br />identifier et corriger les obstacles à la bonne visibilité de votre site.</p> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -143,17 +147,19 @@
         <p class="texte">WEBAGENCY conçoit et réalise des solutions web sur mesure, décourvrez les dernières rélisations.</p>
         
         
-        <ul>
-            <li><a class="boutom_projets">All Works</a></li>
-            <li><a class="boutom_projets">Creative</a></li>
-            <li><a class="boutom_projets">Corporate</a></li>
-            <li><a class="boutom_projets">Portfolio</a></li>
+        <ul id="ul_projets">
+            <div id="nav_projets">
+                <li><a class="boutom_projets">All Works</a></li>
+                <li><a class="boutom_projets">Creative</a></li>
+                <li><a class="boutom_projets">Corporate</a></li>
+                <li><a class="boutom_projets">Portfolio</a></li>
+            </div>
         </ul>
         
         <figure>
             <div id="different_project">
                 <div class="imgProjets">
-                    <img id="images_projetct" src="images/portfolio/01.jpg" alt="lunettes" />
+                    <img class="images_projet" src="images/portfolio/01.jpg" alt="lunettes" />
                     <div class="texte_proj">
                         <figcaption><h1>Projet N°1</h1></figcaption>
                         <figcaption>Site spécialisé dans la vente de lunettes</figcaption>
@@ -166,16 +172,17 @@
         </figure>
         
         <figure>
-            <div class="imgProjets">
-                <img class="images_projetct" src="images/portfolio/02.jpg" alt="lunettes" />
-                <div class="texte_proj">
-                    <figcaption><h1>Projet N°2</h1></figcaption>
-                    <figcaption>Bijouterie</figcaption>
-                    <div class="eyes">
-                        <i class="fa fa-eye fa-lg"></i>
-                    </div>
+            
+            <img class="images_projetct" src="images/portfolio/02.jpg" alt="lunettes" />
+            
+            <figcaption><h1>Projet N°2</h1>
+                Bijouterie
+                <div class="eyes">
+                    <i class="fa fa-eye fa-lg"></i>
                 </div>
-            </div>
+            </figcaption>
+            
+            
         </figure>
         <figure>
             <div class="imgProjets">
@@ -302,8 +309,8 @@
                         <input type="submit" value="Send Message" />
                     </div>
                     
-                </form>
-            </footer>  
-        </div>
-    </body>
-    </html>
+            </form>
+        </footer>  
+    </div>
+</body>
+</html>

@@ -92,6 +92,7 @@ span{
     border: none;
     border-bottom: 3px solid rgb(68, 148, 187);
     border-radius: 4px;
+    cursor: pointer;
 }
 #fleche_left{
     z-index: 1;
@@ -103,6 +104,7 @@ span{
     height: 80px;
     border-radius: 50px;  
     left: -40px;
+    cursor: pointer;
 }
 #rond_left{
     position: absolute;
@@ -120,6 +122,7 @@ span{
     width: 46px;
     height: 80px;
     border-radius: 50px 0 0 50px;
+    cursor: pointer;
 }
 #rond_right{
     position: absolute;
@@ -187,6 +190,9 @@ span{
     margin-top: -9px;
     color: rgba(237, 237, 237, 0.5);
 }
+#services{
+    padding-top: 90px;
+}
 /*******************************************************************************************************************/
 /*                                                                                                                  /
 /*                                                                                                                  / 
@@ -196,20 +202,25 @@ span{
 /********************************************************************************************************************/ 
 #description{
     display: flex;
-    flex-direction: column;
-    justify-content: none;
+    flex-direction: row;
 }
-.ordi{
-    justify-content: flex-start; 
+#block_design{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#block_ordi{
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 .design{
-   flex-direction: column;
+    display: flex;
+}
+.ordi{
+
 }
 
-
-#services{
-    padding-top: 90px;
-}
 /*******************************************************************************************************************/
 /*                                                                                                                  /
 /*                                                                                                                  / 
@@ -217,6 +228,35 @@ span{
 /*                                                                                                                   /
 /*                                                                                                                   /
 /********************************************************************************************************************/ 
+#ul_projets{
+    display: flex;
+    justify-content: center;
+}
+#nav_projets{
+    display: flex;
+    list-style-type: none;
+    width: 395px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(229, 229, 229);
+    color: rgb(101, 105, 110);
+    border: none;
+    border-radius: 5px;
+}
+.boutom_projets{
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    font-size: 1.1em; 
+    cursor: pointer;
+   
+}
+#ul_projets a:hover{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(92, 173, 211) ;
+} 
 #portfolio{
     padding-top: 90px;
 }
@@ -224,8 +264,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
 }
-.images_projetct{
+.images_projet{
     width: 350px;
 }
