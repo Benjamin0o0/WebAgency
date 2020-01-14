@@ -217,9 +217,47 @@ span{
 .design{
     display: flex;
 }
-.ordi{
-
+.texte_titre{
+    margin-top: -10px;
+    color:rgba(0, 0, 0, 0.5);
 }
+.circle_services{
+    z-index: 1;
+    color:rgb(92, 173, 211) ;
+    display: flex;
+    padding-top: 50px;
+    font-size: 15px;
+    padding-right: 25px;
+    margin-left: -32px;
+}
+.ux_chart ,.ui_dessign ,.seo{
+    position: relative;
+    color:rgb(92, 173, 211);
+    font-size: 200%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.border_services{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 26px;
+    border: solid rgba(0, 0, 0, 0.2);
+    border-width: 2px;
+}
+.border_circle{
+    width: 22px;
+    height: 22px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 5px;
+    left: -11px;
+    bottom: -47px;
+}
+    
+
 
 /*******************************************************************************************************************/
 /*                                                                                                                  /
