@@ -256,9 +256,6 @@ span{
     left: -11px;
     bottom: -47px;
 }
-    
-
-
 /*******************************************************************************************************************/
 /*                                                                                                                  /
 /*                                                                                                                  / 
@@ -298,11 +295,46 @@ span{
 #portfolio{
     padding-top: 90px;
 }
-#different_project{
+#block_projets{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 60px;
 }
 .images_projet{
     width: 350px;
+}
+.espace_reduit{
+    position: relative;
+    top: 13px;
+}
+.text_projets{
+    position: relative;
+    bottom: 113px;
+    padding-left: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 90px;
+}
+.texte_photo{
+    font-size: 125%;
+}
+.eyes{
+    z-index: 1;
+    position: relative;
+    font-size: 80%;
+    bottom: 121px;
+    left: 283px;
+    width: 0px;
+}
+.eyes_circle{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(92, 173, 211);
+    border-radius: 50%;
+    position: relative;
+    bottom: 92px;
+    left: 271px;
+    border: solid white;
+    border-width: 2px;
 }
