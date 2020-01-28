@@ -1,5 +1,12 @@
 body{
-    margin: 0px;
+    margin: 0%;
+}
+@font-face {
+    font-family: 'robotothin';
+    src: url('texte_police/texte1/roboto-thin-webfont.woff') format('woff2'),
+         url('texte_police/texte1/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 /*******************************************************************************************************************/
 /*                                                                                                                  /
@@ -15,8 +22,8 @@ body{
     align-items: center;
     height: 80px;
     flex-wrap: wrap;
-    height: 99px;
-    width: 1903px;
+    height: 10%;
+    width: 100%;
     position: fixed;
     background-color:white;
     z-index: 9;
@@ -39,7 +46,6 @@ body{
     padding: 35px 0 0;
     color: black;
 }
-
 /*******************************************************************************************************************/
 /*                                                                                                                  /
 /*                                                                                                                  / 
@@ -47,13 +53,6 @@ body{
 /*                                                                                                                   /
 /*                                                                                                                   /
 /********************************************************************************************************************/ 
-@font-face {
-    font-family: 'robotothin';
-    src: url('texte_police/texte1/roboto-thin-webfont.woff') format('woff2'),
-         url('texte_police/texte1/roboto-thin-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 #titre_principal{
     font-family: robotothin-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 41px;
@@ -71,7 +70,7 @@ span{
 .enfant_sourit{
     z-index: 0;
     margin-top: 77px;
-    height: 654px;
+    width: 100%;
 }
 .texte_slider{
     color: #ffffff ;
@@ -99,7 +98,7 @@ span{
     position: absolute;
     top: 360px;
     padding-left: 12px;
-    background:rgba(67, 66, 71, 0.6);
+    background:rgba(0, 0, 0, 0.1);
     width: 70px;
     height: 80px;
     border-radius: 50px;  
@@ -118,7 +117,7 @@ span{
     position: absolute;
     top: 360px;
     margin-left: 1857px;
-    background:rgba(67, 66, 71, 0.2);
+    background:rgba(0, 0, 0, 0.1);
     width: 46px;
     height: 80px;
     border-radius: 50px 0 0 50px;
@@ -132,27 +131,23 @@ span{
     margin-left: 16px;
 }
 #ligne_bleu{
-   position: absolute;
-   z-index: 2;
-   color: #5CADD3;
-   margin-top: -5px;
-   padding-left: 274px;
-   margin-bottom: 0px;
-   bottom: 213px;
-   border-top-width: 4px;
-   margin-top: 0px;
-}
-#ligne_grise{
     position: absolute;
-    z-index: 1;
-    color: rgba(0, 0, 0, 0.2);
-    margin-top: -5px;
-    padding-left: 1900px;
-    margin-bottom: 0px;
-    bottom: 213px;
+    z-index: 2;
+    color: #5CADD3;
+    padding-left: 14%;
+    margin-bottom: 0%;
+    bottom: 22.5%;
     border-top-width: 4px;
-    margin-top: 0px;
-}
+ }
+ #ligne_grise{
+     position: absolute;
+     z-index: 1;
+     color: rgba(0, 0, 0, 0.2);
+     padding-left: 99.9%;
+     margin-bottom: 0%;
+     bottom: 22.5%;
+     border-top-width: 4px;
+ }
 /*******************************************************************************************************************/
 /*                                                                                                                  /
 /*                                                                                                                  / 
@@ -224,14 +219,11 @@ span{
 .circle_services{
     z-index: 1;
     color:rgb(92, 173, 211) ;
-    display: flex;
-    padding-top: 50px;
     font-size: 15px;
-    padding-right: 25px;
-    margin-left: -32px;
+    margin-left: 3px;
+    margin-top: 3px;
 }
-.ux_chart ,.ui_dessign ,.seo{
-    position: relative;
+.icon{
     color:rgb(92, 173, 211);
     font-size: 200%;
     margin-top: 15px;
@@ -277,14 +269,14 @@ span{
     color: rgb(101, 105, 110);
     border: none;
     border-radius: 5px;
+    margin-bottom: 4%;
 }
 .boutom_projets{
     display: flex;
     width: 100px;
     justify-content: center;
     font-size: 1.1em; 
-    cursor: pointer;
-   
+    cursor: pointer; 
 }
 #ul_projets a:hover{
     color: white;
@@ -299,22 +291,24 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 60px;
 }
 .images_projet{
-    width: 350px;
+    width: 100%;
+    margin-top: -10%;
 }
 .espace_reduit{
     position: relative;
-    top: 13px;
+    top: 14%;
+    font-size: 160%;
 }
 .text_projets{
     position: relative;
-    bottom: 113px;
-    padding-left: 15px;
+    bottom: 34%;
+    padding-left: 5%;
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
-    height: 90px;
+    height: 27%;
+    opacity: 0.2;
 }
 .texte_photo{
     font-size: 125%;
@@ -323,18 +317,49 @@ span{
     z-index: 1;
     position: relative;
     font-size: 80%;
-    bottom: 121px;
-    left: 283px;
-    width: 0px;
+    bottom: 134%;
+    left: 77.5%;
+    width: 0%;
 }
 .eyes_circle{
-    width: 40px;
-    height: 40px;
+    width: 11%;
+    height: 45%;
     background-color:rgb(92, 173, 211);
     border-radius: 50%;
     position: relative;
-    bottom: 92px;
-    left: 271px;
+    bottom: 101%;
+    left: 74.5%;
     border: solid white;
     border-width: 2px;
+}
+.block_figure{
+    width: 20%;
+}
+.block_figure:hover .text_projets{
+    opacity: 1; 
+}
+/*******************************************************************************************************************/
+/*                                                                                                                  /
+/*                                                                                                                  / 
+                                        nos projets           
+/*                                                                                                                   /
+/*                                                                                                                   /
+/********************************************************************************************************************/
+#form_contact{
+    background-color: blueviolet;
+    width: 351px;
+    height: 533px;
+    position: absolute;
+    bottom: 95px;
+    left:75%;
+}
+#map{
+    border: 0;
+    width: 100%;
+    height: 851px;
+    
+}
+#contact{
+    position: relative;
+    padding-top: 90px;
 }
