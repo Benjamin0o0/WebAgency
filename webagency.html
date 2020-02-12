@@ -8,7 +8,6 @@
     <title>webagency</title>
 </head>
 <body>
-    <div id="block_page">
         <!--**************************************************************************************************************************-->
         <!--**************************************************************************************************************************-->
         <!--**************************************************************************************************************************-->
@@ -16,20 +15,18 @@
         <!--**************************************************************************************************************************-->
         <!--**************************************************************************************************************************-->
         <!--**************************************************************************************************************************-->
-        <header>
-            <div id="header_webagency">
-                <img id="logo" src="images/logo.png" alt="Logo de la Webagency" />
-                <nav>
-                    <div class="navigation">
-                        <ul>
-                            <li><a class="menus" href="#accueil">Accueil</a></li>
-                            <li><a class="menus" href="#services">Services</a></li>
-                            <li><a class="menus" href="#portfolio">Portfolio</a></li>
-                            <li><a class="menus" href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+        <header id="header_webagency">
+            <img id="logo" src="images/logo.png" alt="Logo de la Webagency" />
+            <nav>
+                <div class="navigation">
+                    <ul>
+                        <li><a class="menus" href="#accueil">Accueil</a></li>
+                        <li><a class="menus" href="#services">Services</a></li>
+                        <li><a class="menus" href="#portfolio">Portfolio</a></li>
+                        <li><a class="menus" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </header>
         <!--**************************************************************************************************************************-->
         <!--**************************************************************************************************************************-->
@@ -39,23 +36,21 @@
         <!--**************************************************************************************************************************-->
         <!--**************************************************************************************************************************-->
         <section id="accueil">
-            <div id="block_slider">
-                <div class="texte_slider">
-                    <h1 id="titre_principal"><span>WEBAGENCY</span> : L'AGENCE DE TOUS <br />VOS PROJETS !</h1>
-                    <h4 id="titre_secondaire">Vous avez un projet web ? La WebAngency vous aide à le réaliser !</h4>
+            <div class="texte_slider">
+                <h1 id="titre_principal"><span>WEBAGENCY</span> : L'AGENCE DE TOUS <br />VOS PROJETS !</h1>
+                <h4 id="titre_secondaire">Vous avez un projet web ? La WebAngency vous aide à le réaliser !</h4>
+            </div>
+            <div id="fleche_left">
+                <div id="rond_left">
+                    <i class="fas fa-angle-left"></i>
                 </div>
-                <div id="fleche_left">
-                    <div id="rond_left">
-                        <i class="fas fa-angle-left"></i>
-                    </div>
+            </div>
+            <div id="fleche_right">
+                <div id="rond_right">
+                    <i class="fas fa-angle-right"></i>
                 </div>
-                <div id="fleche_right">
-                    <div id="rond_right">
-                        <i class="fas fa-angle-right"></i>
-                    </div>
-                </div>
-                <img class="enfant_sourit" src="images/slider/bg1.jpg" alt="enfant qui sourit" /> 
-            </div> 
+            </div>
+            <img class="enfant_sourit" src="images/slider/bg1.jpg" alt="enfant qui sourit" /> 
             <hr id="ligne_bleu" />
             <hr id="ligne_grise" />    
             <input class="bouton" type="button" value="Plus d'infos" />
@@ -67,7 +62,7 @@
         <!--**************************************************************************************************************************-->
         <!--**************************************************************************************************************************-->
         <!--**************************************************************************************************************************-->
-        <section>
+    <section class="">
             <div id="services"></div>
             <h1 class="grand_titre">NOS SERVICES</h1>
             <div class="circle_white">
@@ -144,6 +139,7 @@
         <!--**************************************************************************************************************************-->
         <!--**************************************************************************************************************************-->
         <!--**************************************************************************************************************************-->
+        <section>
         <div id="portfolio"></div>
         <h1 class="grand_titre">NOS PROJETS</h1>
         <div class="circle_white">
@@ -156,12 +152,10 @@
         <p class="texte">WEBAGENCY conçoit et réalise des solutions web sur mesure, décourvrez les dernières rélisations.</p>
         
         <ul id="ul_projets">
-            <div id="nav_projets">
                 <li><a class="boutom_projets">All Works</a></li>
                 <li><a class="boutom_projets">Creative</a></li>
                 <li><a class="boutom_projets">Corporate</a></li>
                 <li><a class="boutom_projets">Portfolio</a></li>
-            </div>
         </ul>
         
         <div id="block_projets">
@@ -200,11 +194,13 @@
                     <div class="texte_photo">
                         Boutiqur en ligne de vente de vêtements
                     </div>
+                </figcaption>
+                <div class="yeux_bleu">
                     <div class="eyes_circle"></div>
                     <div class="eyes">
                         <i class="fa fa-eye fa-lg"></i>
                     </div>
-                </figcaption>
+                </div>
             </figure>
             
             <figure class="block_figure">
@@ -277,6 +273,7 @@
                 </figcaption>
             </figure>
         </div>
+    </section>
         <!--**************************************************************************************************************************-->
         <!--**************************************************************************************************************************-->
         <!--**************************************************************************************************************************-->
@@ -321,6 +318,5 @@
                 <input class="button_send" type="submit" value="Send Message" />
             </form>
         </footer>  
-    </div>
 </body>
 </html>
