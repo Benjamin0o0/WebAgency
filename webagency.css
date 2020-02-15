@@ -166,6 +166,7 @@ span{
     display: flex;
     justify-content: center;
     font-size: 40px;
+    width: 100%;
 }
 .texte{
     display: flex;
@@ -173,12 +174,15 @@ span{
     color: rgba(0, 0, 0, 0.5);
     margin-top: 25px;
     margin-bottom: 60px;
+    width: 100%;
 }
 .circle_blue{
     display: flex;
     justify-content: center;
     margin-top: -20px;
-    color:rgb(92, 173, 211) ;    
+    color:rgb(92, 173, 211) ;   
+    z-index: 1; 
+    height: 100%;
 }
 .circle_white{
     display: flex;
@@ -186,6 +190,8 @@ span{
     margin-top: -16px;
     color:white; 
     font-size: 25px;
+    z-index: 1;
+    width: 100%;
 }
 .ligne{
     width: 125px;
@@ -202,6 +208,11 @@ span{
 /*                                                                                                                   /
 /*                                                                                                                   /
 /********************************************************************************************************************/ 
+#block_services{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 #description{
     display: flex;
     flex-direction: row;
@@ -235,13 +246,13 @@ span{
 }
 .icon{
     color:rgb(92, 173, 211);
-    font-size: 200%;
+    font-size: 32px;
     margin-top: 15px;
     margin-left: 15px;
 }
 .border_services{
-    width: 6.3%;
-    height: 65%;
+    width: 63px;
+    height: 63px;
     border-radius: 50%;
     display: flex;
     margin-top: 26px;
@@ -269,20 +280,21 @@ span{
 #ul_projets{
     display: flex;
     justify-content: center;
-    border: none;
-    border-radius: 5px;
     list-style-type: none;
-    width: 395px;
     color: rgb(101, 105, 110);
     margin-bottom: 4%;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 #ul_projets li{
     background-color: rgb(229, 229, 229);
 }
 #ul_projets li:hover{
-    background-color: aqua;
+    background-color: #5CADD3;
+}
+.li_projets_left{
+    border-radius: 6px 0px 0px 6px;
+}
+.li_projets_right{
+    border-radius: 0px 6px 6px 0px;
 }
 .boutom_projets{
     display: flex;
@@ -290,6 +302,8 @@ span{
     justify-content: center;
     font-size: 1.1em; 
     cursor: pointer; 
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 #portfolio{
     padding-top: 90px;
@@ -300,51 +314,52 @@ span{
     flex-wrap: wrap;
     justify-content: center;
 }
+.block_figure{
+    width: 20%;
+    position: relative;
+}
+.block_figure:hover .text_projets{
+    opacity: 1; 
+}
 .images_projet{
     width: 100%;
 }
 .espace_reduit{
-    position: relative;
-    margin-left: 17px;
+    position: absolute;
+    left: 17px;
 }
 .text_projets{
     position: absolute;
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
     opacity: 0;
-    margin-top: -92px;
-    width: 20%;
-    height: 15.4%;
+    width: 100%;
+    height: 34%;
+    bottom: 2%;
 }
 .texte_photo{
+    position: absolute;
     font-size: 125%;
-    margin-top: -17px;
-    margin-left: 17px;
+    left: 17px;
+    bottom: 16%;
 }
 .eyes{
     z-index: 1;
-    position: relative;
-    font-size: 80%;
-    bottom: 126px;
-    right: -328px;
-    width: 0%;
+    font-size: 16px;
+    position: absolute;
+    left: 86%;
+    bottom: 89%;
 }
 .eyes_circle{
-    width: 11%;
-    height: 46%;
     background-color:rgb(92, 173, 211);
     border-radius: 50%;
-    position: relative;
-    right: -316px;
-    bottom: 96.167px;
     border: solid white;
-    border-width: 2px;
-}
-.block_figure{
-    width: 20%;
-}
-.block_figure:hover .text_projets{
-    opacity: 1; 
+    border-width: 3px;
+    position: absolute;
+    width: 13%;
+    height: 51%;
+    bottom: 73%;
+    left: 82%;
 }
 /*******************************************************************************************************************/
 /*                                                                                                                  /
@@ -355,10 +370,9 @@ span{
 /********************************************************************************************************************/
 #form_contact{
     background-color: rgba(255, 255, 255, 0.9);
-    width: 381px;
+    width: 20%;
     position: absolute;
-    bottom: 95px;
-    left:70%;
+    right: 10%;
     height: 67%;
     top: 191.5px;
 }
@@ -366,20 +380,25 @@ span{
     border: 0;
     width: 100%;
     height: 840px;
+    opacity: 0.8;
+    color: red;
+    background-color: red;
+    z-index: 0;
 }
+
 .fond_blue{
-    
     z-index: 1;
-    opacity: 0.5;
-    background-color: rgb(92, 173, 211);
+    opacity: 0.8;
+    color: red;
+    background-color: red;
 }
 #contact{
     position: relative;
     padding-top: 90px;
 }
 .tableu{
-    margin-left: 28px;
-    margin-top: 24px;
+    margin-left: 7%;
+    margin-top: 6%;
 }
 .button_send{
     height: 5%;
@@ -390,8 +409,9 @@ span{
     border-bottom: 3px solid rgb(68, 148, 187);
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 28px;
-    margin-top: 28px;
+    left: 7%;
+    bottom: 5%;
+    position: absolute;
 }
 .texte_form{
     margin-left: 28px;
@@ -406,5 +426,8 @@ span{
 }
 #pseudo, #email, #subject{
     height: 19px;
-    width: 316px;
+    width: 90%;
+}
+#message{
+    width: 90%;
 }
