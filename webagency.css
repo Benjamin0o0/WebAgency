@@ -115,8 +115,8 @@ span{
     position: absolute;
     color: white;
     font-size: 226%;
-    left: 56%;
-    top: 30%;
+    left: 61%;
+    top: 26%;
 }
 #fleche_right{
     z-index: 1;
@@ -135,7 +135,7 @@ span{
     color: white;
     font-size: 226%;
     left: 30%;
-    top: 30%;
+    top: 26%;
 }
 #ligne_bleu{
     position: absolute;
@@ -307,9 +307,6 @@ span{
 	border-width: 26px;
 	margin-left: -26px;
 }
-
-
-
 #ul_projets li:hover{
 	position: relative;
 }
@@ -419,7 +416,7 @@ span{
     z-index: 1;
     font-size: 16px;
     position: absolute;
-    left: 85.7%;
+    left: 85.9%;
     bottom: 89%;
 }
 .eyes_circle{
@@ -496,6 +493,7 @@ span{
 #message{
     width: 90%;
 }
+
 @media all and (min-width: 2560px){
     .navigation{
         font-size: 32px;
@@ -544,9 +542,7 @@ span{
     .eyes{
         font-size: 19px;
     }
-    
 }
-
 @media all and (max-width: 1716px){
     .texte_photo{
         font-size: 111%;
@@ -555,8 +551,15 @@ span{
         font-size: 137%;
         bottom: 65%;
     }
-    .block_figure{
-        
+    #titre_principal {
+        font-size: 214%;
+    }
+    #rond_left {
+        left: 58%;
+        top: 23%;
+    }
+    #rond_right {
+        top: 23%;
     }
     .eyes_circle{
         width: 36px;
@@ -564,10 +567,8 @@ span{
     }
     .eyes{
         font-size: 13px; 
-        bottom: 86%;
-    }
-    .text_projets{
-        height: 40%;
+        bottom: 88%;
+        left: 85.4%;
     }
 }  
 @media all and (max-width: 1600px){
@@ -600,9 +601,6 @@ span{
         left: 86%;
         bottom: 87%;
     }
-    .text_projets{
-        height: 44%;
-    }
     .espace_reduit{
         bottom: 68%;
     }
@@ -612,14 +610,25 @@ span{
 }
 @media all and (max-width: 1500px){
     .eyes_circle {
-        width: 30px;
-        height: 30px;
-        bottom: 75%;
+        width: 32px;
+        height: 32px;
+        bottom: 72%;
     }
     .eyes {
         font-size: 11px;
         left: 86%;
         bottom: 89%;
+    }
+    .texte_photo, .texte_photo3, .texte_photo1 {
+        font-size: 108%;
+        bottom: 20%;
+    }
+    .espace_reduit {
+        font-size: 125%;
+        bottom: 68%;
+    }
+    .texte_photo3, .texte_photo1 {
+        bottom: 12%;
     }
 }
 @media all and (max-width: 1300px){
@@ -637,15 +646,15 @@ span{
     #titre_secondaire {
         font-size: 78%;
     }
-    
     .eyes{
         font-size: 9px;
         bottom: 88%;
     }
     .eyes_circle {
-        width: 24px;
-        height: 24px;
-        bottom: 76%;
+        width: 29px;
+        height: 29px;
+        bottom: 72%;
+        border-width: 2px;
     }
     .texte_photo, .texte_photo3, .texte_photo1{
         font-size: 106%;
@@ -662,16 +671,17 @@ span{
     .bouton{
         font-size: 103%;  
     }
-    
 }
 @media all and (max-width: 1200px){
     #rond_left {
         left: 60%;
         font-size: 137%;
+        top: 28%;
     }
     #rond_right {
         left: 33%;
         font-size: 137%;
+        top: 28%;
     }
     #titre_principal {
         font-size: 148%;
@@ -680,13 +690,14 @@ span{
         font-size: 71%;
     }
     .eyes_circle {
-        width: 21px;
-        height: 21px;
-        bottom: 77%;
+        width: 28px;
+        height: 28px;
+        bottom: 74%;
     }
     .eyes {
-        font-size: 7px;
+        font-size: 9px;
         bottom: 90%;
+        left: 85.5%;
     }
 }
 @media all and (max-width: 1100px){
@@ -699,10 +710,6 @@ span{
     .bouton {
         font-size: 93%;
     }
-    .icon {
-        font-size: 31px;
-        margin-left: 11px;
-    }
     .grand_titre {
         font-size: 34px;
     }
@@ -710,15 +717,26 @@ span{
         font-size: 13px;
     }
     .eyes_circle {
-        width: 19px;
-        height: 19px;
+        width: 27px;
+        height: 27px;
         border-width: 2px;
-    } 
-     
+        bottom: 73%;
+    }
     .eyes {
-        font-size: 6px;
-        bottom: 90%;
-        left: 86%
+        font-size: 8px;
+        bottom: 89%;
+        left: 85.5%;
+    }
+    .block_figure {
+        width: 23%;
+    }
+    .espace_reduit {
+        font-size: 125%;
+        bottom: 55%;
+    }
+    .texte_photo3, .texte_photo1 {
+        font-size: 88%;
+    }
 }
 @media all and (max-width: 1000px){
     #titre_principal {
@@ -727,11 +745,28 @@ span{
     #titre_secondaire {
         font-size: 61%;
     }
+    #rond_left {
+        left: 57%;
+        font-size: 137%;
+        top: 21%;
+    }
+    #rond_right {
+        top: 23%;
+    }
+    .text_projets {
+        font-size: 137%;
+    }
+    .eyes_circle {
+        bottom: 72%;
+    }
+    .eyes {
+        left: 85.9%;
+    }
     .texte_photo, .texte_photo3, .texte_photo1 {
-        font-size: 81%;
+        font-size: 13px;
     }
     .espace_reduit {
-        font-size: 112%;
+        font-size: 20px;
     }
 }
 @media all and (max-width: 900px){
@@ -761,26 +796,25 @@ span{
         margin-left: 25%;
         width: 100%;
     }
-   
     .icon {
         margin-left: 14px;
     }
     .texte_photo, .texte_photo3, .texte_photo1 {
         font-size: 70%;
     }
-    .espace_reduit {
-        font-size: 100%;
-        bottom: 63%;
+    
+    .block_figure {
+        width: 31%;
     }
     .eyes_circle {
-        width: 15px;
-        height: 15px;
+        width: 29px;
+        height: 29px;
         border-width: 1px;
-        bottom: 82%;
+        bottom: 76%;
     }
     .eyes {
         left: 85.1%;
-        font-size: 5px;
+        font-size: 10px;
     }
     #form_contact {
         background-color: rgba(0, 0, 0, 0.1);
@@ -804,7 +838,7 @@ span{
     }
     .eyes {
         left: 85.6%;
-        font-size: 5px;
+        font-size: 9px;
         bottom: 92.4%;
     }
     #fleche_left{
@@ -821,6 +855,9 @@ span{
     }
     #titre_principal{
         bottom: -203%;
+    }
+    .texte_photo3, .texte_photo1{
+        font-size: 14px;
     }
 }
 @media all and (max-width: 700px){
@@ -842,20 +879,18 @@ span{
     .texte_titre {
         width: 75%;
     }
-    .espace_reduit {
-        font-size: 76%;
+    .block_figure {
+        width: 35%;
     }
-    .texte_photo, .texte_photo3, .texte_photo1 {
-        font-size: 55%;
-    }
-    .eyes_circle {
-        width: 10px;
-        height: 10px;
-    }
-    .eyes {
-        left: 84.6%;
-        font-size: 3px;
-    }
+}
+.espace_reduit {
+    font-size: 18px;
+}
+@media all and (max-width: 633px){
+    #header_webagency{
+        height: 100px;
+        font-size: 87%;
+    } 
 }
 @media all and (max-width: 600px){
     #header_webagency{
@@ -866,12 +901,26 @@ span{
         margin-top: 101px;
     }
     #titre_principal {
-        font-size: 79%;
+        bottom: -21%;
+        left: 30%;
+        font-size: 110%;
+    }
+    .texte_slider {
+        color: black;
+        position: initial;
     }
     #titre_secondaire {
-        font-size: 35%;
-    }#rond_left {
-        font-size: 90%;
+        bottom: -24%;
+        left: 30%;
+        font-size: 55%;
+        color: rgba(0, 0, 0, 0.5); 
+    }
+    .bouton{
+        bottom: -31%;
+        left: 45%;
+        width: 12%;
+        height: 8%;
+        font-size: 71%;
     }
     #rond_left {
         font-size: 90%;
@@ -879,26 +928,27 @@ span{
     #rond_right{
         font-size: 90%;
     }
-    .bouton {
-        font-size: 40%;
-    }
     .grand_titre {
         font-size: 30px;
     }
     .texte_titre {
         width: 59%;
     }
-    .texte_photo, .texte_photo3, .texte_photo1 {
-        font-size: 44%;
-    }
-    .espace_reduit {
-        font-size: 64%;
-    }
     .eyes {
-        left: 85.6%;
+        font-size: 12px;
+        bottom: 90%;
     }
     .eyes_circle {
-        bottom: 81%; 
+        width: 39px;
+        height: 39px;
+        bottom: 76%;
+    }
+    .texte_photo, .texte_photo3, .texte_photo1 {
+        bottom: 20%;
+        font-size: 73%;
+    }
+    .block_figure {
+        width: 59%;
     }
     .titre_form {
         font-size: 20px;
@@ -909,33 +959,23 @@ span{
     #fleche_left {
         bottom: 31%;
     }
-    #rond_left {
-        font-size: 78%;
-    }
-    .bouton {
-        bottom: 20%;
-    }
-    #titre_secondaire {
-        bottom: -259%;
-    }
-    #titre_principal {
-        bottom: -248%;
-        font-size: 71%;
+    #fleche_right{
+        bottom: 31%;
     }
     .navigation a:hover{
         border-top: none;     
         padding: 0px;
     }
+    .espace_reduit {
+        font-size: 25px;
+    }
+    #form_contact {
+        margin-left: 25%;
+    }
 }
 @media all and (max-width: 500px){
     .enfant_sourit {
         margin-top: 101px;
-    }
-    #titre_principal {
-        font-size: 61%;
-    }
-    #titre_secondaire {
-        font-size: 29%;
     }
     #rond_left {
         font-size: 78%;
@@ -943,60 +983,20 @@ span{
     #rond_right{
         font-size: 78%;
     }
-    
-    .block_figure {
-        width: 34%;
-    }
-    .eyes_circle {
-        width: 18px;
-        height: 18px;
-    }
-    .eyes {
-        left: 85.4%;
-        font-size: 6px;
-        }
-    }
-    .texte_photo, .texte_photo3, .texte_photo1{
-        bottom: 27%;
-        font-size: 53%;
-    }
-    .espace_reduit {
-        font-size: 76%;
-    }
-    #fleche_right {
-        bottom: 76px;
-    }
-    #fleche_left {
-        bottom: 76px;
-    }
-}
-@media all and (max-width: 450px){
     #titre_principal {
-        font-size: 54%;
+        font-size: 83%;
     }
     #titre_secondaire {
-        font-size: 26%;
+        font-size: 41%;
     }
     .bouton {
-        font-size: 28%;
-    }
-    .grand_titre {
-        font-size: 29px;
-    }
-    .texte {
-        font-size: 11px;
-    }
-    #description {
-        margin-left: -77px;
+        font-size: 52%;
     }
     .block_figure {
-        width: 32%;
+        width: 62%;
     }
-    .eyes {
-        left: 85.2%;
-    }
-    #form_contact{
-        margin-left: 0px;
+    .eyes_circle {
+        bottom: 74%;
     }
 }
 @media all and (max-width: 400px){
@@ -1006,17 +1006,11 @@ span{
     #fleche_right {
         bottom: 63px;
     }
-    #titre_principal {
-        font-size: 48%;
-    }
     #rond_left {
         font-size: 64%;
     }
     #rond_right{
         font-size: 64%;
-    }
-    #titre_secondaire {
-        font-size: 22%;
     }
     .ordi {
         height: 246px;
@@ -1025,34 +1019,60 @@ span{
     .boutom_projets {
         width: 80px;
     }
-    .block_figure {
-        width: 30%;
-    }
-    .eyes_circle {
-        width: 13px;
-        height: 13px;
-    }
-    .eyes {
-        left: 86%;
-        font-size: 4px;
-        bottom: 92%;
-    }
     #form_contact{
         width: 266px;
     }
+    #titre_principal {
+        font-size: 75%;
+    }
+    .bouton {
+        font-size: 45%;
+    }
+    #block_design {
+        margin-left: 9%;
+    }
+    .texte_titre {
+        width: 114%;
+    }
+    .texte_photo, .texte_photo3, .texte_photo1 {
+        font-size: 65%;
+        bottom: 12%;
+    }
+    .espace_reduit {
+        font-size: 20px;
+        bottom: 62%;
+    }
+    .eyes_circle {
+        width: 29px;
+        height: 29px;
+        bottom: 73%;
+    }
+    .eyes {
+        font-size: 10px;
+        bottom: 89%;
+    }
+    .design {
+        display: initial;
+    }
+    .border_circle {
+        bottom: 43px;
+        left: 56px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
 }
 @media all and (max-width: 350px){
+    #rond_left {
+        font-size: 50%;
+    }
+    #rond_right{
+        font-size: 50%;
+    }
     #fleche_left {
         bottom: 55px;
     }
     #fleche_right {
         bottom: 55px;
-    }
-    #titre_principal {
-        font-size: 42%;
-    }
-    #titre_secondaire {
-        font-size: 20%;
     }
     .bouton {
         font-size: 16%;
@@ -1063,82 +1083,229 @@ span{
     .texte {
         font-size: 10px;
     }
+    .bouton {
+        bottom: -38%;
+        width: 16%;
+        height: 11%;
+        font-size: 52%;
+        top: 134%;
+        left: 40%;
+    }
+    #titre_principal {
+        font-size: 85%;
+        left: 23%;
+        top: 101%;
+    }
+    #titre_secondaire {
+        font-size: 45%;
+        left: 23%;
+        top: 272px;
+        top: 120%;
+    }
     .ordi {
-        height: 211px;
+        margin-left: 95%;
     }
-    .icon {
-        margin-left: 11px;
-        font-size: 25px;
-        margin-top: 19px;
-    }
-    .block_figure {
-        width: 27%;
-    }
-    .texte_photo, .texte_photo3, .texte_photo1 {
-        bottom: 5%;
-        font-size: 43%;
-    }
-    .espace_reduit {
-        font-size: 64%;
+    .boutom_projets {
+        width: 70px;
+        font-size: 14px;
     }
     .eyes_circle {
-        width: 9px;
-        height: 9px;
+        width: 25px;
+        height: 25px;
+        bottom: 74%;
     }
     .eyes {
-        left: 85.5%;
-        font-size: 3px;
-        bottom: 88%;
+        font-size: 7px;
+        bottom: 89%;
+        left: 86.2%;
+    }
+    .texte_photo3{
+        font-size: 52%;
+    }
+    .espace_reduit {
+        font-size: 18px;
+        bottom: 58%;
+    }
+    #form_contact {
+        width: 302px;
+        margin-left: 0px;
     }
 }
 @media all and (max-width: 300px){
+    #header_webagency {
+        font-size: 72%;
+    }
+    #rond_left {
+        font-size: 44%;
+    }
+    #rond_right{
+        font-size: 44%;
+    }
+    #titre_principal {
+        font-size: 73%;
+    }
+    #titre_secondaire {
+        font-size: 41%;
+    }
     #fleche_left {
         bottom: 48px;
     }
     #fleche_right {
         bottom: 48px;
     }
-    #titre_principal {
-        font-size: 36%;
-    }
-    #titre_secondaire {
-        font-size: 18%;
-    }
     .bouton {
-        font-size: 15%;
-    }
-    .grand_titre {
-        font-size: 24px;
+        font-size: 41%;
     }
     .texte {
         font-size: 9px;
     }
-
-    .icon {
-        margin-top: 15px;
-    }
-    .boutom_projets {
-        width: 70px;
-        font-size: 14px;
-    }
+   
     .block_figure {
         width: 73%;
     }
-    .espace_reduit {
-        font-size: 103%;
-        bottom: 55%;
+    #form_contact {
+        width: 262px;
     }
-    .texte_photo, .texte_photo3, .texte_photo1 {
-        bottom: 21%;
-        font-size: 71%;
+    .boutom_projets {
+        width: 62px;
+        font-size: 12px;
+    }
+    .espace_reduit {
+        font-size: 17px;
+        bottom: 62%;
+    }
+    .texte_photo1 {
+        font-size: 53%;
+    }
+}
+@media all and (max-width: 250px){
+    #header_webagency {
+        font-size: 50%;
+    }
+    #fleche_left {
+        background: transparent;
+    }
+    #fleche_right{
+        background: transparent;
+    }
+    #rond_left {
+        color: transparent;
+    }
+    #rond_right{
+        color: transparent;
+    }
+    #titre_principal {
+        left: 2%;
+    }
+    #titre_secondaire{
+        left: 2%;
+    }
+    .bouton {
+        font-size: 35%;
+        left: 2%;
+    } 
+    .ordi {
+        margin-left: 95%;
+    }
+    .boutom_projets {
+        width: 53px;
+        font-size: 10px;
     }
     .eyes_circle {
-        width: 26px;
-        height: 26px;
-        bottom: 80%;
+        width: 20px;
+        height: 20px;
     }
     .eyes {
-        font-size: 9px;
+        font-size: 6px;
         bottom: 91%;
+    }
+    .texte_photo, .texte_photo3, .texte_photo1 {
+        font-size: 45%;
+    }
+    .espace_reduit {
+        font-size: 13px;
+    }
+    #ligne_bleu{
+        background-color: transparent;
+    }
+    #ligne_grise{
+        background-color: transparent;
+    }
+}
+@media all and (max-width: 200px){
+    #header_webagency {
+        font-size: 43%;
+        padding-left: 7px;
+    }
+    #titre_principal {
+        font-size: 66%;
+    } 
+    .bouton {
+        font-size: 27%;
+    }
+    .ordi {
+        height: 176px;
+    }
+    .grand_titre {
+        font-size: 22px;
+    }
+    .boutom_projets {
+        width: 43px;
+        font-size: 8px;
+    }
+    .texte_photo, .texte_photo1 {
+        font-size: 36%;
+    }
+    .espace_reduit {
+        font-size: 11px;
+        bottom: 57%;
+    }
+    .texte_photo3 {
+        font-size: 31%;
+    }
+    .eyes_circle {
+        width: 13px;
+        height: 13px;
+    }
+    .eyes {
+        font-size: 4px;
+    }
+    #form_contact {
+        width: 188px;
+    }
+}
+@media all and (max-width: 150px){
+    #header_webagency {
+        font-size: 32%;
+    }
+    #titre_principal {
+        font-size: 52%;
+    }
+    #titre_secondaire {
+        font-size: 29%;
+    }
+    .bouton {
+        font-size: 14%;
+    }
+    .grand_titre {
+        font-size: 19px;
+    }
+    .ordi {
+        height: 132px;
+    }
+    .boutom_projets {
+        width: 31px;
+        font-size: 6px;
+    }
+    .images_projet {
+        width: 167%;
+        margin-left: -21px;
+    }
+    .text_projets {
+        left: -21px;
+        width: 167%;
+    }
+    #form_contact {
+        width: 131px;
     }
 }
