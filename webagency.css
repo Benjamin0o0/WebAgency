@@ -1059,36 +1059,29 @@ span{
     .ordi {
         height: 221px;
     }
-    #rond_left {
-        right: 0px;
-    }
-    #rond_right{
-        right: 0px;
+    .boutom_projets {
+        width: 88px;
     }
     #fleche_left {
-        right: 0px;
+        background: transparent;
     }
     #fleche_right{
-        right: 0px;
+        background: transparent;
+    }
+    #rond_left {
+        color: transparent;
+    }
+    #rond_right{
+        color: transparent;
+    }
+    #ligne_bleu{
+        background-color: transparent;
+    }
+    #ligne_grise{
+        background-color: transparent;
     }
 }
 @media all and (max-width: 400px){
-    #fleche_left {
-        bottom: 63px;
-        right: 0px;
-    }
-    #fleche_right {
-        bottom: 63px;
-        right: 0px;
-    }
-    #rond_left {
-        font-size: 64%;
-        right: 0px;
-    }
-    #rond_right{
-        font-size: 64%;
-        right: 0px;
-    }
     .boutom_projets {
         width: 80px;
     }
@@ -1148,22 +1141,6 @@ span{
     }
 }
 @media all and (max-width: 350px){
-    #rond_left {
-        font-size: 50%;
-        right: 0px;
-    }
-    #rond_right{
-        font-size: 50%;
-        right: 0px;
-    }
-    #fleche_left {
-        bottom: 55px;
-        right: 0px;
-    }
-    #fleche_right {
-        bottom: 55px;
-        right: 0px;
-    }
     .bouton {
         font-size: 16%;
     }
@@ -1204,15 +1181,7 @@ span{
 }
 @media all and (max-width: 300px){
     #header_webagency {
-        font-size: 72%;
-    }
-    #rond_left {
-        font-size: 44%;
-        right: 0px;
-    }
-    #rond_right{
-        font-size: 44%;
-        right: 0px;
+        font-size: 60%;
     }
     #titre_principal {
         font-size: 73%;
@@ -1254,19 +1223,7 @@ span{
 }
 @media all and (max-width: 250px){
     #header_webagency {
-        font-size: 50%;
-    }
-    #fleche_left {
-        background: transparent;
-    }
-    #fleche_right{
-        background: transparent;
-    }
-    #rond_left {
-        color: transparent;
-    }
-    #rond_right{
-        color: transparent;
+        font-size: 46%;
     }
     .bouton {
         font-size: 35%;
@@ -1289,12 +1246,6 @@ span{
     }
     .espace_reduit {
         font-size: 13px;
-    }
-    #ligne_bleu{
-        background-color: transparent;
-    }
-    #ligne_grise{
-        background-color: transparent;
     }
     .ordi {
         height: 122px;
@@ -1384,5 +1335,8 @@ span{
     }
     #form_contact {
         width: 131px;
+    }
+    .circle_services {
+        margin-left: 9px;
     }
 }
